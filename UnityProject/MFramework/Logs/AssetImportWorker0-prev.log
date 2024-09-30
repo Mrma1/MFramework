@@ -1,10 +1,10 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.43f1 (6f9470916942) revision 7312496'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'zh' Physical Memory: 16310 MB
+OS: 'Windows 10  (10.0.18363) 64bit Professional' Language: 'zh' Physical Memory: 16326 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-F:\Unity\2021.3.43f1\Editor\Unity.exe
+F:\Unity2021.3.43f1\Unity 2021.3.43f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,7 +15,7 @@ F:/Unity/Project/MFramework/UnityProject/MFramework
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-9699
+62514
 Successfully changed project path to: F:/Unity/Project/MFramework/UnityProject/MFramework
 F:/Unity/Project/MFramework/UnityProject/MFramework
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,122 +47,117 @@ F:/Unity/Project/MFramework/UnityProject/MFramework
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15284] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 2406161118 [EditorId] 2406161118 [Version] 1048832 [Id] WindowsEditor(7,MA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25160] Host "[IP] 192.168.1.134 [Port] 0 [Flags] 2 [Guid] 1256060066 [EditorId] 1256060066 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HAM8A2G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15284] Host "[IP] 192.168.1.2 [Port] 0 [Flags] 2 [Guid] 2406161118 [EditorId] 2406161118 [Version] 1048832 [Id] WindowsEditor(7,MA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25160] Host "[IP] 192.168.1.134 [Port] 0 [Flags] 2 [Guid] 1256060066 [EditorId] 1256060066 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HAM8A2G) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 34.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 52.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.43f1 (6f9470916942)
-[Subsystems] Discovering subsystems at path F:/Unity/2021.3.43f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path F:/Unity2021.3.43f1/Unity 2021.3.43f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path F:/Unity/Project/MFramework/UnityProject/MFramework/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c81)
     Vendor:   NVIDIA
-    VRAM:     8006 MB
-    Driver:   31.0.15.5123
+    VRAM:     1976 MB
+    Driver:   31.0.15.4584
 Initialize mono
-Mono path[0] = 'F:/Unity/2021.3.43f1/Editor/Data/Managed'
-Mono path[1] = 'F:/Unity/2021.3.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'F:/Unity/2021.3.43f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Mono path[0] = 'F:/Unity2021.3.43f1/Unity 2021.3.43f1/Editor/Data/Managed'
+Mono path[1] = 'F:/Unity2021.3.43f1/Unity 2021.3.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/Unity2021.3.43f1/Unity 2021.3.43f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56664
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: F:/Unity/2021.3.43f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: F:/Unity/2021.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001763 seconds.
+Register platform support module: F:/Unity2021.3.43f1/Unity 2021.3.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002226 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 194 ms
-Refreshing native plugins compatible for Editor in 34.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 50.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.659 seconds
+- Completed reload, in  0.733 seconds
 Domain Reload Profiling:
-	ReloadAssembly (660ms)
-		BeginReloadAssembly (73ms)
+	ReloadAssembly (733ms)
+		BeginReloadAssembly (106ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (523ms)
-			LoadAssemblies (73ms)
+			LoadAssemblies (104ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (76ms)
+			SetupTypeCache (181ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (398ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (268ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (252ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (34ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (78ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003150 seconds.
+Registered in 0.004249 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.061 seconds
+- Completed reload, in  1.809 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1061ms)
-		BeginReloadAssembly (97ms)
+	ReloadAssembly (1809ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (893ms)
-			LoadAssemblies (77ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1560ms)
+			LoadAssemblies (112ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (194ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (34ms)
-			SetupLoadedEditorAssemblies (581ms)
+			SetupTypeCache (415ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (966ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (516ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (870ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.45 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 24 unused Assets / (46.5 KB). Loaded Objects now: 3541.
+Unloading 24 unused Assets / (46.4 KB). Loaded Objects now: 3539.
 Memory consumption went from 106.7 MB to 106.7 MB.
-Total: 2.559000 ms (FindLiveObjects: 0.194600 ms CreateObjectMapping: 0.108400 ms MarkObjects: 2.194000 ms  DeleteObjects: 0.061300 ms)
+Total: 2.800900 ms (FindLiveObjects: 0.270300 ms CreateObjectMapping: 0.256500 ms MarkObjects: 2.207400 ms  DeleteObjects: 0.065900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -172,9 +167,347 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1053620.535596 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(3bbbb2801650d744ba510c952fe133f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 76500.156570 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes using Guid(3bbbb2801650d744ba510c952fe133f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28392e464b2e82d477830c4f34bf9794') in 0.012030 seconds 
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca186c5bf9d05d007e8d276bb5c9616b') in 0.022843 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004158 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.420 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1421ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (38ms)
+		EndReloadAssembly (1158ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (304ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (674ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (589ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3104 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (22.0 KB). Loaded Objects now: 3573.
+Memory consumption went from 107.5 MB to 107.4 MB.
+Total: 2.785800 ms (FindLiveObjects: 0.302100 ms CreateObjectMapping: 0.201500 ms MarkObjects: 2.260600 ms  DeleteObjects: 0.020900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 254.731104 seconds.
+  path: Assets/QHierarchy
+  artifactKey: Guid(a4e8ecde94c0c3e4e876cb31f24b7862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy using Guid(a4e8ecde94c0c3e4e876cb31f24b7862) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4515338dd585c47a955de70d7c140b') in 0.013715 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.048411 seconds.
+  path: Assets/QHierarchy/Attribute
+  artifactKey: Guid(602672b16b2911c47892de4f436d5894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Attribute using Guid(602672b16b2911c47892de4f436d5894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f545a8f197e1b1f961172637044cb4e') in 0.008488 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.436498 seconds.
+  path: Assets/QHierarchy/Editor
+  artifactKey: Guid(325ffd836cb52054d9f615250b95398d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Editor using Guid(325ffd836cb52054d9f615250b95398d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff70f2ea064979f5a2fb845f5dc5c3d3') in 0.008586 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.423012 seconds.
+  path: Assets/QHierarchy/Attribute/QHierarchyNullable.asmdef
+  artifactKey: Guid(784c1df74834cb743a426a6126f1064d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Attribute/QHierarchyNullable.asmdef using Guid(784c1df74834cb743a426a6126f1064d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5c4b688e7c967c807e0edb7d7ed285') in 0.037735 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.131814 seconds.
+  path: Assets/QHierarchy/Attribute/QHierarchyNullable.cs
+  artifactKey: Guid(15892d7337a046e43b2c6bad21242c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Attribute/QHierarchyNullable.cs using Guid(15892d7337a046e43b2c6bad21242c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066aae6be381e4d343323479f10f027f') in 0.025911 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 52.715122 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/MainScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9905cd7069c064a928deea4828b812a') in 0.008849 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1401.784957 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242eb3f8ccddee1d20804eaa3e2360db') in 0.008459 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.668041 seconds.
+  path: Assets/GameScripts
+  artifactKey: Guid(8879433fc1732d747a9605da7de01bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameScripts using Guid(8879433fc1732d747a9605da7de01bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d10a5a6f4ccb5f1ba27018704b5982') in 0.020473 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.200062 seconds.
+  path: Assets/QHierarchy/Editor/Scripts
+  artifactKey: Guid(a37008235cb5c0c4b9ca8932a016d63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Editor/Scripts using Guid(a37008235cb5c0c4b9ca8932a016d63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5e16debfad992356bd43c062df957f') in 0.008224 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.529908 seconds.
+  path: Assets/QHierarchy/Editor/QHierarchyEditor.asmdef
+  artifactKey: Guid(49674d15b25185649b7ec8ac5d378747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Editor/QHierarchyEditor.asmdef using Guid(49674d15b25185649b7ec8ac5d378747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6f2a9e7f1f7d254121b8e34f4b2a48') in 0.008232 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.125941 seconds.
+  path: Assets/QHierarchy/Scripts/QHierarchyRuntime.asmdef
+  artifactKey: Guid(211f9e8f16a5ff644946a29c81bedf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Scripts/QHierarchyRuntime.asmdef using Guid(211f9e8f16a5ff644946a29c81bedf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b780cbff7168fff149ce86f8c2906a') in 0.009501 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.396213 seconds.
+  path: Assets/QHierarchy/Scripts/QObjectList.cs
+  artifactKey: Guid(845e8bd83609e3549af5a311ad811681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Scripts/QObjectList.cs using Guid(845e8bd83609e3549af5a311ad811681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ed9e351a38cdf7752dbbb3c0f92658') in 0.010438 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.167954 seconds.
+  path: Assets/QHierarchy/Manual.pdf
+  artifactKey: Guid(e70abd53bc685854c862668bc2c3fef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Manual.pdf using Guid(e70abd53bc685854c862668bc2c3fef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92e3be7d3f534dc433d1ed7df1c2eff') in 0.022189 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1121.683331 seconds.
+  path: Assets/QHierarchy/Manual.pdf
+  artifactKey: Guid(e70abd53bc685854c862668bc2c3fef1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Manual.pdf using Guid(e70abd53bc685854c862668bc2c3fef1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '691db5134334b79058b301d614166592') in 0.113477 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QHierarchy/Editor/Scripts/pcomponent/QLockComponent.cs
+  artifactKey: Guid(b0502ab6ed39a3d40ab31c7622d9914f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Editor/Scripts/pcomponent/QLockComponent.cs using Guid(b0502ab6ed39a3d40ab31c7622d9914f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '31864e146dc36bc291756c683cc53780') in 0.053158 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.001312 seconds.
+  path: Assets/QHierarchy/Editor/Scripts/pdata/QSettingsObject.cs
+  artifactKey: Guid(b9eba1ecab4c43c41869985e270bbe09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Editor/Scripts/pdata/QSettingsObject.cs using Guid(b9eba1ecab4c43c41869985e270bbe09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ab23ab24eceb3f7fe3861773fe07d81e') in 0.036544 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QHierarchy/Editor/Scripts/QHierarchyInitializer.cs
+  artifactKey: Guid(91dfc025140434846819647cecf3bd95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Editor/Scripts/QHierarchyInitializer.cs using Guid(91dfc025140434846819647cecf3bd95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0644b74cb6550f191506126e1af72a9c') in 0.015490 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/QHierarchy/Attribute/QHierarchyNullable.cs
+  artifactKey: Guid(15892d7337a046e43b2c6bad21242c1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Attribute/QHierarchyNullable.cs using Guid(15892d7337a046e43b2c6bad21242c1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd617eb25d695838176838e01ae6cd5ac') in 0.016155 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QHierarchy/Editor/Scripts/pcomponent/pbase/QBaseComponent.cs
+  artifactKey: Guid(620cabcf0b368b54e82f999917adaa5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Editor/Scripts/pcomponent/pbase/QBaseComponent.cs using Guid(620cabcf0b368b54e82f999917adaa5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4b1e407815b36f74f87e723ecc3d0082') in 0.014396 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QHierarchy/Editor/Scripts/pcomponent/QColorComponent.cs
+  artifactKey: Guid(80272015235c35e4eaa83bc0ae9c98f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Editor/Scripts/pcomponent/QColorComponent.cs using Guid(80272015235c35e4eaa83bc0ae9c98f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8c2f5e4b2b3812939b3a169558423fd1') in 0.015904 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/QHierarchy/Editor/Scripts/pcomponent/QGameObjectIconComponent.cs
+  artifactKey: Guid(50cf04889723dbc4e8f2d788d89196cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Editor/Scripts/pcomponent/QGameObjectIconComponent.cs using Guid(50cf04889723dbc4e8f2d788d89196cb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a55146cf6feac96cc38dc25ed5dd2a48') in 0.023489 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/QHierarchy/Editor/Scripts/pcomponent/QVerticesAndTrianglesCountComponent.cs
+  artifactKey: Guid(acd2f57f3f7434a4dbd2ca175601410d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Editor/Scripts/pcomponent/QVerticesAndTrianglesCountComponent.cs using Guid(acd2f57f3f7434a4dbd2ca175601410d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '54aa10550bb8f4d48041e281571f791f') in 0.020980 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/QHierarchy/Editor/Scripts/pdata/QResources.cs
+  artifactKey: Guid(387ed2783d685b048a858216512aa0c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Editor/Scripts/pdata/QResources.cs using Guid(387ed2783d685b048a858216512aa0c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f8621c9149d1df2bfffe68d70925f0d2') in 0.024952 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/QHierarchy/Editor/Scripts/pcomponent/QVisibilityComponent.cs
+  artifactKey: Guid(29ed13b1fdfce9c4abe6efeee4611f51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Editor/Scripts/pcomponent/QVisibilityComponent.cs using Guid(29ed13b1fdfce9c4abe6efeee4611f51) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd0d2d638c46c86210863ead6bbee22aa') in 0.021283 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/QHierarchy/Editor/Scripts/phelper/QColorUtils.cs
+  artifactKey: Guid(70e4d942740a91e45b468c65bbeb78aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Editor/Scripts/phelper/QColorUtils.cs using Guid(70e4d942740a91e45b468c65bbeb78aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '46c886f5490de907a742c2b611659d0e') in 0.057493 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/QHierarchy/Editor/Scripts/pcomponent/QTagLayerComponent.cs
+  artifactKey: Guid(4932a596a527d4248b5c3ea4458bcf12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Editor/Scripts/pcomponent/QTagLayerComponent.cs using Guid(4932a596a527d4248b5c3ea4458bcf12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f81f7da0dd2223e0f0da964386d9c8cc') in 0.023825 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/QHierarchy/Editor/QHierarchyEditor.asmdef
+  artifactKey: Guid(49674d15b25185649b7ec8ac5d378747) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Editor/QHierarchyEditor.asmdef using Guid(49674d15b25185649b7ec8ac5d378747) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c240dceea0c63f3ac18622679b5ebc49') in 0.025290 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/QHierarchy/Attribute/QHierarchyNullable.asmdef
+  artifactKey: Guid(784c1df74834cb743a426a6126f1064d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Attribute/QHierarchyNullable.asmdef using Guid(784c1df74834cb743a426a6126f1064d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1bb103da350017b94f10350a68e0463b') in 0.014111 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/QHierarchy/Editor/Scripts/pcomponent/QMonoBehaviorIconComponent.cs
+  artifactKey: Guid(b88f8470c7bcc944c925e9d7e8b72661) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Editor/Scripts/pcomponent/QMonoBehaviorIconComponent.cs using Guid(b88f8470c7bcc944c925e9d7e8b72661) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7d602e8b9562caaf14844330d51b30c5') in 0.011977 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/QHierarchy/Editor/Scripts/phelper/QColorPickerWindow.cs
+  artifactKey: Guid(a7b2618f38024e943bb04bab606dc06e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Editor/Scripts/phelper/QColorPickerWindow.cs using Guid(a7b2618f38024e943bb04bab606dc06e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4fda13fac9f9018a9a61766ecd260a04') in 0.137219 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/QHierarchy/Editor/Scripts/phierarchy/QHierarchy.cs
+  artifactKey: Guid(4b7e0353599820d438074ea45a106853) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Editor/Scripts/phierarchy/QHierarchy.cs using Guid(4b7e0353599820d438074ea45a106853) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '74eb40417df9f44eeac6a344300b3190') in 0.061961 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/QHierarchy/Editor/Scripts/pcomponent/QRendererComponent.cs
+  artifactKey: Guid(09ef5e33b4710ed439a07e2ce9b29ce7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Editor/Scripts/pcomponent/QRendererComponent.cs using Guid(09ef5e33b4710ed439a07e2ce9b29ce7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f5c9e288527f02b85f0c206a05c40f61') in 0.157970 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/QHierarchy/Editor/Scripts/phelper/QObjectListManager.cs
+  artifactKey: Guid(dac6048cde5fd4d4399d16cc2ffba265) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Editor/Scripts/phelper/QObjectListManager.cs using Guid(dac6048cde5fd4d4399d16cc2ffba265) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '554758f354d8d5f1a09da32448914fbc') in 0.069486 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/QHierarchy/Editor/Scripts/phierarchy/QHierarchySettingsWindow.cs
+  artifactKey: Guid(311dd60af7f888a4ea46d48565c35ed1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Editor/Scripts/phierarchy/QHierarchySettingsWindow.cs using Guid(311dd60af7f888a4ea46d48565c35ed1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e64e63e5d842387bc51cf07ecd85a396') in 0.388178 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/QHierarchy/Editor/Scripts/pcomponent/QStaticComponent.cs
+  artifactKey: Guid(36e29ad1ef3ae3b4587ddd3bdb2067f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QHierarchy/Editor/Scripts/pcomponent/QStaticComponent.cs using Guid(36e29ad1ef3ae3b4587ddd3bdb2067f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bab2fcdb7dacafbece5d63f44ff00af1') in 0.023808 seconds 
 Number of asset objects unloaded after import = 0

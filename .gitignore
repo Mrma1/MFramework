@@ -72,3 +72,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 UnityProject/MFramework/Library/
 UnityProject/MFramework/Temp/
+UnityProject/MFramework/HybridCLRData/
+UnityProject/MFramework/Logs/
