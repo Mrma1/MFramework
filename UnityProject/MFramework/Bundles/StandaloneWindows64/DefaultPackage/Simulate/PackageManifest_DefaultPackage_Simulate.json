@@ -1,0 +1,80 @@
+{
+    "FileVersion": "2.0.0",
+    "EnableAddressable": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildPipeline": "BuiltinBuildPipeline",
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "Simulate",
+    "AssetList": [
+        {
+            "Address": "blue_button",
+            "AssetPath": "Assets/AssetRaw/UIRaw/Atlas/Common/blue_button.png",
+            "AssetGUID": "",
+            "AssetTags": [
+                "UIRaw"
+            ],
+            "BundleID": 0
+        },
+        {
+            "Address": "red_button",
+            "AssetPath": "Assets/AssetRaw/UIRaw/Atlas/Common/red_button.png",
+            "AssetGUID": "",
+            "AssetTags": [
+                "UIRaw"
+            ],
+            "BundleID": 0
+        },
+        {
+            "Address": "white_background",
+            "AssetPath": "Assets/AssetRaw/UIRaw/Atlas/Common/white_background.png",
+            "AssetGUID": "",
+            "AssetTags": [
+                "UIRaw"
+            ],
+            "BundleID": 0
+        },
+        {
+            "Address": "white_button",
+            "AssetPath": "Assets/AssetRaw/UIRaw/Atlas/Common/white_button.png",
+            "AssetGUID": "",
+            "AssetTags": [
+                "UIRaw"
+            ],
+            "BundleID": 0
+        },
+        {
+            "Address": "about",
+            "AssetPath": "Assets/AssetRaw/Configs/about.txt",
+            "AssetGUID": "",
+            "AssetTags": [
+                "Configs",
+                "WEBGL_PRELOAD"
+            ],
+            "BundleID": 1
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "assets_assetraw_uiraw_atlas_common.bundle",
+            "UnityCRC": 0,
+            "FileHash": "362010f08ab0fe4e5f0a2b711b16851c",
+            "FileCRC": "00000000",
+            "FileSize": 24073,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_assetraw_configs.bundle",
+            "UnityCRC": 0,
+            "FileHash": "64bce676a8eb6e7f6a6cec4a0bee971b",
+            "FileCRC": "00000000",
+            "FileSize": 24,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        }
+    ]
+}
