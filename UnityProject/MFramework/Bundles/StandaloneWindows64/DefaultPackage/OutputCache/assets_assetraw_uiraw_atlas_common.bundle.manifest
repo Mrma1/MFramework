@@ -1,0 +1,25 @@
+ManifestFileVersion: 0
+CRC: 2402264982
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dfd7998fbfd7bf010185edae65eeca04
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c21d61fe394c58399df3c6fb5c7c99b3
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: dfd7998fbfd7bf010185edae65eeca04
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AssetRaw/UIRaw/Atlas/Common/white_background.png
+- Assets/AssetRaw/UIRaw/Atlas/Common/blue_button.png
+- Assets/AssetRaw/UIRaw/Atlas/Common/red_button.png
+- Assets/AssetRaw/UIRaw/Atlas/Common/white_button.png
+Dependencies: []

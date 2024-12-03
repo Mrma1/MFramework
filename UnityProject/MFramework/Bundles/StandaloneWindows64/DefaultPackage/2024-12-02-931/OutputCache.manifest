@@ -1,0 +1,13 @@
+ManifestFileVersion: 0
+CRC: 1016353397
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: assets_assetraw_uiraw_atlas_common.bundle
+      Dependencies: {}
+    Info_1:
+      Name: assets_assetraw_configs.bundle
+      Dependencies: {}
+    Info_2:
+      Name: assets_assetraw_dll.bundle
+      Dependencies: {}

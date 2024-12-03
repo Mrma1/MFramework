@@ -316,8 +316,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 728997132}
-  - component: {fileID: 728997134}
   - component: {fileID: 728997133}
+  - component: {fileID: 728997134}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -995,7 +995,7 @@ MonoBehaviour:
   m_MinUnloadUnusedAssetsInterval: 60
   m_MaxUnloadUnusedAssetsInterval: 300
   PackageName: DefaultPackage
-  playMode: 0
+  playMode: 1
   m_UpdatableWhilePlaying: 0
   VerifyLevel: 1
   m_ReadWritePathType: 0
