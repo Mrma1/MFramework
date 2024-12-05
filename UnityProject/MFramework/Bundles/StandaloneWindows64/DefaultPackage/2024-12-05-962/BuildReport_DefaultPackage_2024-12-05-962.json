@@ -2,13 +2,13 @@
     "Summary": {
         "YooVersion": "2.1.1",
         "UnityVersion": "2021.3.43f1",
-        "BuildDate": "2024/12/2 15:31:45",
-        "BuildSeconds": 8,
+        "BuildDate": "2024/12/5 16:02:59",
+        "BuildSeconds": 9,
         "BuildTarget": 19,
         "BuildMode": 0,
         "BuildPipeline": "BuiltinBuildPipeline",
         "BuildPackageName": "DefaultPackage",
-        "BuildPackageVersion": "2024-12-02-931",
+        "BuildPackageVersion": "2024-12-05-962",
         "UniqueBundleName": false,
         "EnableAddressable": true,
         "LocationToLower": false,
@@ -21,10 +21,10 @@
         "CompressOption": 2,
         "DisableWriteTypeTree": false,
         "IgnoreTypeTreeChanges": true,
-        "AssetFileTotalCount": 15,
-        "MainAssetTotalCount": 15,
-        "AllBundleTotalCount": 3,
-        "AllBundleTotalSize": 2463930,
+        "AssetFileTotalCount": 16,
+        "MainAssetTotalCount": 16,
+        "AllBundleTotalCount": 4,
+        "AllBundleTotalSize": 2474114,
         "EncryptedBundleTotalCount": 0,
         "EncryptedBundleTotalSize": 0
     },
@@ -93,7 +93,7 @@
                 "DLL"
             ],
             "MainBundleName": "assets_assetraw_dll.bundle",
-            "MainBundleSize": 2447434,
+            "MainBundleSize": 2447410,
             "DependAssets": []
         },
         {
@@ -104,7 +104,7 @@
                 "DLL"
             ],
             "MainBundleName": "assets_assetraw_dll.bundle",
-            "MainBundleSize": 2447434,
+            "MainBundleSize": 2447410,
             "DependAssets": []
         },
         {
@@ -115,7 +115,7 @@
                 "DLL"
             ],
             "MainBundleName": "assets_assetraw_dll.bundle",
-            "MainBundleSize": 2447434,
+            "MainBundleSize": 2447410,
             "DependAssets": []
         },
         {
@@ -126,7 +126,7 @@
                 "DLL"
             ],
             "MainBundleName": "assets_assetraw_dll.bundle",
-            "MainBundleSize": 2447434,
+            "MainBundleSize": 2447410,
             "DependAssets": []
         },
         {
@@ -137,7 +137,7 @@
                 "DLL"
             ],
             "MainBundleName": "assets_assetraw_dll.bundle",
-            "MainBundleSize": 2447434,
+            "MainBundleSize": 2447410,
             "DependAssets": []
         },
         {
@@ -148,7 +148,7 @@
                 "DLL"
             ],
             "MainBundleName": "assets_assetraw_dll.bundle",
-            "MainBundleSize": 2447434,
+            "MainBundleSize": 2447410,
             "DependAssets": []
         },
         {
@@ -159,7 +159,7 @@
                 "DLL"
             ],
             "MainBundleName": "assets_assetraw_dll.bundle",
-            "MainBundleSize": 2447434,
+            "MainBundleSize": 2447410,
             "DependAssets": []
         },
         {
@@ -170,7 +170,7 @@
                 "DLL"
             ],
             "MainBundleName": "assets_assetraw_dll.bundle",
-            "MainBundleSize": 2447434,
+            "MainBundleSize": 2447410,
             "DependAssets": []
         },
         {
@@ -181,7 +181,7 @@
                 "DLL"
             ],
             "MainBundleName": "assets_assetraw_dll.bundle",
-            "MainBundleSize": 2447434,
+            "MainBundleSize": 2447410,
             "DependAssets": []
         },
         {
@@ -192,7 +192,18 @@
                 "DLL"
             ],
             "MainBundleName": "assets_assetraw_dll.bundle",
-            "MainBundleSize": 2447434,
+            "MainBundleSize": 2447410,
+            "DependAssets": []
+        },
+        {
+            "Address": "TestUI",
+            "AssetPath": "Assets/AssetRaw/UI/Windows/TestUI.prefab",
+            "AssetGUID": "cb85a59fe7462854cab205126e2207f1",
+            "AssetTags": [
+                "UI"
+            ],
+            "MainBundleName": "assets_assetraw_ui_windows_testui.bundle",
+            "MainBundleSize": 10208,
             "DependAssets": []
         }
     ],
@@ -233,10 +244,10 @@
         },
         {
             "BundleName": "assets_assetraw_dll.bundle",
-            "FileName": "a5df990a1e83bb954231e4aaf50c234c.bundle",
-            "FileHash": "a5df990a1e83bb954231e4aaf50c234c",
-            "FileCRC": "7922611b",
-            "FileSize": 2447434,
+            "FileName": "70f4c9a61e305c4bac70c4cf5fee837d.bundle",
+            "FileHash": "70f4c9a61e305c4bac70c4cf5fee837d",
+            "FileCRC": "bd60bc84",
+            "FileSize": 2447410,
             "Encrypted": false,
             "Tags": [
                 "DLL"
@@ -253,6 +264,21 @@
                 "Assets/AssetRaw/DLL/UniTask.dll.bytes",
                 "Assets/AssetRaw/DLL/UnityEngine.CoreModule.dll.bytes",
                 "Assets/AssetRaw/DLL/YooAsset.dll.bytes"
+            ]
+        },
+        {
+            "BundleName": "assets_assetraw_ui_windows_testui.bundle",
+            "FileName": "dd50bbf72836e473ee40ba6fe4d1d65f.bundle",
+            "FileHash": "dd50bbf72836e473ee40ba6fe4d1d65f",
+            "FileCRC": "a7fb77fd",
+            "FileSize": 10208,
+            "Encrypted": false,
+            "Tags": [
+                "UI"
+            ],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/AssetRaw/UI/Windows/TestUI.prefab"
             ]
         }
     ],

@@ -1,5 +1,5 @@
 ManifestFileVersion: 0
-CRC: 1016353397
+CRC: 2893541363
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
@@ -10,4 +10,7 @@ AssetBundleManifest:
       Dependencies: {}
     Info_2:
       Name: assets_assetraw_dll.bundle
+      Dependencies: {}
+    Info_3:
+      Name: assets_assetraw_ui_windows_testui.bundle
       Dependencies: {}

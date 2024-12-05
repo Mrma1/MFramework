@@ -6,7 +6,7 @@
     "OutputNameStyle": 0,
     "BuildPipeline": "BuiltinBuildPipeline",
     "PackageName": "DefaultPackage",
-    "PackageVersion": "2024-12-02-931",
+    "PackageVersion": "2024-12-05-962",
     "AssetList": [
         {
             "Address": "blue_button",
@@ -143,6 +143,15 @@
                 "DLL"
             ],
             "BundleID": 2
+        },
+        {
+            "Address": "TestUI",
+            "AssetPath": "Assets/AssetRaw/UI/Windows/TestUI.prefab",
+            "AssetGUID": "",
+            "AssetTags": [
+                "UI"
+            ],
+            "BundleID": 3
         }
     ],
     "BundleList": [
@@ -173,13 +182,25 @@
         },
         {
             "BundleName": "assets_assetraw_dll.bundle",
-            "UnityCRC": 2391867737,
-            "FileHash": "a5df990a1e83bb954231e4aaf50c234c",
-            "FileCRC": "7922611b",
-            "FileSize": 2447434,
+            "UnityCRC": 697602926,
+            "FileHash": "70f4c9a61e305c4bac70c4cf5fee837d",
+            "FileCRC": "bd60bc84",
+            "FileSize": 2447410,
             "Encrypted": false,
             "Tags": [
                 "DLL"
+            ],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "assets_assetraw_ui_windows_testui.bundle",
+            "UnityCRC": 1064360991,
+            "FileHash": "dd50bbf72836e473ee40ba6fe4d1d65f",
+            "FileCRC": "a7fb77fd",
+            "FileSize": 10208,
+            "Encrypted": false,
+            "Tags": [
+                "UI"
             ],
             "DependIDs": []
         }
