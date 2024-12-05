@@ -226,6 +226,7 @@ namespace TEngine
         /// </summary>
         internal bool IsLoadDone = false;
 
+        internal bool IsDestroyed = false;
         #endregion
 
         public void Init(string name, int layer, bool fullScreen, string assetName, bool fromResources, int hideTimeToClose)
@@ -370,7 +371,7 @@ namespace TEngine
             return needUpdate;
         }
 
-        internal void InternalDestroy()
+        internal void InternalDestroy(bool isShutDown = false)
         {
             _isCreate = false;
 
@@ -394,7 +395,13 @@ namespace TEngine
                 Object.Destroy(_panel);
                 _panel = null;
             }
-            CancelHideToCloseTimer();
+
+            IsDestroyed = true;
+
+            if (!isShutDown)
+            {
+                CancelHideToCloseTimer();
+            }
         }
 
         /// <summary>
@@ -409,6 +416,12 @@ namespace TEngine
             }
 
             IsLoadDone = true;
+
+            if (IsDestroyed)
+            {
+                Object.Destroy(panel);
+                return;
+            }
             
             panel.name = GetType().Name;
             _panel = panel;

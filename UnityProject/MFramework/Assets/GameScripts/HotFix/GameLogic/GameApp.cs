@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using System.Reflection;
 using GameBase;
-using GameLogic;
 using TEngine;
 
 /// <summary>
@@ -38,7 +37,7 @@ public partial class GameApp:Singleton<GameApp>
     /// </summary>
     private void StartGameLogic()
     {
-        GameModule.UI.ShowUI<TestUI>();
+        
     }
 
     /// <summary>
