@@ -266,7 +266,8 @@ namespace TEngine
 
             return null;
         }
-        
+
+
         /// <summary>
         /// 创建UIWidget通过父UI位置节点。
         /// <remarks>因为资源实例已经存在父物体所以不需要异步。</remarks>

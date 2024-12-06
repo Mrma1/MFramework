@@ -36,7 +36,8 @@ namespace TEngine
             get => _debugger ??= Get<DebuggerModule>();
             private set => _debugger = value;
         }
-        
+
+
         private static DebuggerModule _debugger;
 
         /// <summary>
